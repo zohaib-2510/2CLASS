@@ -96,25 +96,26 @@
 //     }
 
 // game
+var ab = document.querySelector('h3')
+var abc = document.querySelector('h4')
+var d =Math.random(1).toFixed(0)
+console.log(d);
+// var a = +prompt('ENTER A NUMBER')
+// if(a===4){
+//   document.write('CORRECT ANS')
+//   ab.innerHTML='SCORE: 1'
+//   abc.innerHTML='MARKS: 10'
+// }
+var b = +prompt('ENTER A NUMBER')
 
-var a = +prompt('ENETER YOUR 1 SUBJECT MARK')
-var b = +prompt('ENETER YOUR 2 SUBJECT MARK')
-var c = +prompt('ENETER YOUR 3 SUBJECT MARK')
-var d = a+b+c
-    if (d < 190) {
-document.write('j')
-    } else if (d < 20) {
-        greeting = "Good day";
-      } else {
-        greeting = "Good evening";
-      }
-
-
-
-
-
-// document.write('TOTAL MARK 300'+'<br>'+'MARKS OBTAINED'+d+'<br>'+'YOUR PERCSENTAGE'+(300/d)*100+'<br>'+'GRADE B'+'<br>'+'REMARK:YOU NEED TO IMPROVE')
-
+if(b==d){
+  document.write('CORRECT ANS')
+  ab.innerHTML="SCORE:1"
+  abc.innerHTML="MARK:10"
+ 
+}else{
+  document.write('TRY AGAIN')
+}
 
 
 
